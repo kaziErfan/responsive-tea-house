@@ -37,11 +37,12 @@
 </head>
 
 <body class="font-manrope">
-  <header class="xl:container">
+  <!-- Header Section -->
+  <header class="container mx-auto">
     <div class="hero">
       <div class="hero-content flex-col lg:flex-row gap-4">
         <div class="md:w-3/4 lg:w-1/2 pt-16">
-          <h1 class=" text-5xl lg:text-7xl font-extrabold">
+          <h1 class="text-5xl lg:text-7xl font-extrabold">
             It's good <br />
             tea time at The Tea House
           </h1>
@@ -57,10 +58,10 @@
           <img src="./images/banner.png" class="max-w-sm lg:max-w-lg" />
           <!-- Rating -->
           <div class="flex items-center gap-4 drop-shadow-xl bg-white py-5 px-7 w-64 rounded-lg -mt-24">
-            <i class="fa-solid fa-star text-4xl"></i>
+            <i class="fa-solid fa-star text-4xl text-amber-400"></i>
             <div>
-              <h3>5.00</h3>
-              <p>Trust Pilot Ratings</p>
+              <h3 class="text-3xl font-extrabold">5.00</h3>
+              <p class="font-semibold text-[#777]">Trust Pilot Ratings</p>
             </div>
           </div>
         </div>
@@ -68,7 +69,50 @@
     </div>
   </header>
 
-  <main></main>
+  <main class="container mx-auto ">
+    <!-- Featured Section -->
+    <section class="text-center my-24 mx-10 lg:mx-28 md:mx-16  lg:my-36">
+      <h3 class="text-5xl font-extrabold text-[#1C1C1C] mb-5">Our Featured Products</h3>
+      <p class="font-medium text-[#777] max-w-xs lg:max-w-4xl md:max-w-xl mb-12 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+      <!-- Card Container -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- First Card -->
+        <div class="card  bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] p-8 shadow-xl">
+          <figure><img src="./images/tea-1.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+            <p class="font-semibold text-[#1C1C1C]">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- Second Card -->
+        <div class="card  bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] p-8 shadow-xl">
+          <figure><img src="./images/tea-2.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-2xl font-extrabold">Black Tea</h2>
+            <p class="font-semibold text-[#1C1C1C]">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="card  bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] p-8 shadow-xl">
+          <figure><img src="./images/tea-3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
+            <p class="font-semibold text-[#1C1C1C]">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- Fourth Card -->
+        <div class="card  bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] p-8 shadow-xl">
+          <figure><img src="./images/tea-4.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="text-2xl font-extrabold">Green Tea</h2>
+            <p class="font-semibold text-[#1C1C1C]">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
   <footer></footer>
 </body>
 
